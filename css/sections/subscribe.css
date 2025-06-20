@@ -1,1 +1,71 @@
-/* about.css */
+.subscription {
+    padding: 64px;
+    background-color: var(--primary-color);
+    background-image: url('../../assets/subscribe_bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.subscription h2 {
+    font-size: 88px;
+    font-family: var(--playfair-display);
+    font-weight: 600;
+    line-height: 123px;
+    color: white;
+    text-align: center;
+}
+
+.subscription p {
+    font-size: 18px;
+    font-family: var(--plus-jakarta-sans);
+    font-weight: 300;
+    line-height: 36px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.subscription__form {
+    min-width: 480px;
+    margin-top: 40px;
+    padding: 14px 14px 14px 24px;
+    display: flex;
+    gap: 10px;
+    border: 2px solid black;
+    border-radius: 48px;
+}
+
+.subscription__form input {
+    flex: 1;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--plus-jakarta-sans);
+    color: #fff;
+    opacity: 0.5;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.subscription__form input::placeholder {
+    color: #fff;
+    opacity: 0.5;
+}
+
+.subscription__form button {
+    padding: 20px;
+    min-width: 180px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+    text-align: center;
+    color: #fff;
+    background-color: var(--black-400);
+    border-radius: 48px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

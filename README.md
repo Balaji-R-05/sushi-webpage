@@ -6,7 +6,3 @@
 - CSS
 - Javascript
 - Vite
-
-
-
-
