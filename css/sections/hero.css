@@ -93,6 +93,13 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 23px;
+  transition: all 0.3s ease;
+}
+
+.hero-content__order-button:hover {
+  background: var(--primary-color);
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
 }
 
 .hero-content__play-button {
@@ -109,6 +116,12 @@
   font-family: var(--plus-jakarta-sans);
 
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero-content__play-button:hover {
+  color: var(--primary-color);
+  transform: scale(1.05);
 }
 
 .hero-content__play-button img {

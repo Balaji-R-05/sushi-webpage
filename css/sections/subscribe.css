@@ -1,7 +1,7 @@
 .subscription {
     padding: 64px;
     background-color: var(--primary-color);
-    background-image: url('../../assets/subscribe_bg.png');
+    background-image: url('../../assets/backgrounds/subscribe_bg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -68,4 +68,10 @@
     border: none;
     outline: none;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.subscription__form button:hover {
+    background-color: var(--secondary-color);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }

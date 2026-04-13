@@ -5,7 +5,7 @@
     flex-direction: column;
 
     background-color: var(--primary-color);
-    background-image: url("../../assets/popular_bg.png");
+    background-image: url("../../assets/backgrounds/popular_bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -47,6 +47,7 @@
     font-family: var(--plus-jakarta-sans);
     color: #fff;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .popular-foods__filter-btn img {
@@ -58,11 +59,12 @@
 .popular-foods__filter-btn.active {
     background-color: #fff;
     color: var(--primary-color);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .popular-foods__filter-btn:hover {
     background: #fff;
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 
 .popular-foods__catalogue {
@@ -107,6 +109,13 @@
   border-radius: 36px;
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.popular-foods__card:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-10px);
 }
 
 .popular-foods__card-image {
