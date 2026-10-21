@@ -9,8 +9,8 @@ A modern, responsive landing page for a Japanese food delivery service, built wi
 - Responsive design for desktop and mobile
 - Animated scroll effects using [AOS](https://michalsnik.github.io/aos/)
 - Modern CSS with custom variables and modular section styles
-- Interactive navigation and menu sections
-- Newsletter subscription form
+- Mobile navigation menu toggle and food category filtering
+- Newsletter signup layout
 - Clean, accessible markup and semantic structure
 
 ## Tech Stack
